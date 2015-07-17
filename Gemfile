@@ -43,7 +43,7 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'spree', path: '..'
+gem 'spree', github: 'spree/spree', branch: 'master'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: 'master'
 
 group :test, :development do
