@@ -44,8 +44,9 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'spree', github: 'spree/spree', branch: 'master'
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: 'master'
+gem 'spree', github: 'spree/spree', branch: '3-0-stable'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-0-stable'
+gem 'spree_digital', github: 'halo/spree_digital', branch: '3-0-stable'
 
 group :test, :development do
   gem 'bullet'
