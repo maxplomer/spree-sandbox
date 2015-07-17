@@ -53,5 +53,4 @@ group :test, :development do
   gem 'bullet'
   gem 'pry-byebug'
   gem 'rack-mini-profiler'
-  gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '3-0-stable'
 end
