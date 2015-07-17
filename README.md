@@ -8,3 +8,6 @@ go to /admin to access the admin section, when you click on product you will see
 ### TODO
 
 need to use rest-client gem to make an api call and create a product
+
+
+
