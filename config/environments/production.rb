@@ -86,4 +86,11 @@ Rails.application.configure do
     :authentication => 'login',
     :domain => 'yourdomain.com', # your domain to identify your server when connecting
   }
+
+  config.paperclip_defaults = {
+    :storage => :s3,
+    :s3_credentials => {
+      :bucket => 'spree-gramercy-development'
+    }
+  }
 end
