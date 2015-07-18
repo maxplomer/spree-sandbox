@@ -54,3 +54,7 @@ group :test, :development do
   gem 'pry-byebug'
   gem 'rack-mini-profiler'
 end
+
+group :development, :test do
+  gem 'dotenv-rails'
+end
