@@ -1,4 +1,5 @@
 class Api::DigitalsController < ApplicationController
+  before_action :require_valid_spree_api_key!
 
   def create
     product_id = params["product_id"]
