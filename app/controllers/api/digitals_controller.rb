@@ -20,5 +20,3 @@ class Api::DigitalsController < ApplicationController
   end
 
 end
-
-## TODO before_action check for api key
