@@ -1,7 +1,8 @@
 class CustomCheckoutController < ApplicationController
-  
+
   def guest
-    redirect_to 'http://news.google.com'
+    #fail
+    redirect_to "/cart"
   end
-  
+
 end
