@@ -56,5 +56,5 @@ group :test, :development do
 end
 
 group :development, :test do
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '1.0.2'
 end
