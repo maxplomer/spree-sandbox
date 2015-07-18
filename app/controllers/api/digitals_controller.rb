@@ -4,6 +4,7 @@ class Api::DigitalsController < ApplicationController
     logger.info("HELLOWORLDHELLOWORLDHELLOWORLD")
     logger.info(params)
     logger.info("HELLOWORLDHELLOWORLDHELLOWORLD")
+    render json: {hello: "world"} 
   end
 
 end
